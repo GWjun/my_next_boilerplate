@@ -6,6 +6,27 @@
 pnpm install
 ```
 
-### Information
+### Run development server
 
-eslint-config-next와 @titicaca/eslint-config-triple 함께 사용
+```
+pnpm dev
+```
+
+## Information
+
+### ESLint
+
+eslint-config-next & @titicaca/eslint-config-triple 함께 사용
+
+### Prettier
+
+@titicaca/prettier-config-triple 사용
+
+### CSS Tools
+
+Tailwind CSS & PostCSS 사용
+
+### State Management
+
+/src/store에 client 와 server 구분
+기호에 따라 라이브러리 선택
